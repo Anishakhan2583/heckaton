@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background:linear-gradient(to bottom,purple,pink,black);
+    height: 100%;
+    width: 100%;   
+}
+nav ul ,li{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-weight: bold;
+}
+header{
+    margin: 1em;
+}
+.flex_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4em;
+}
+.img{
+    width: 100%;
+    height: 100%;
+    border-radius:2em;
+}
+.cta_button{
+   width: 100%;
+   height: 100%;
+   margin: 1em; 
+   border-radius: 2rem; 
+   box-shadow: 10px 10px 10px rgba(rgb(248, 149, 255),0.57px);
+   border-color: rgb(193, 149, 234);
+}
+
+.button{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.dashboard{
+    border-radius: 1em; 
+    border: 2px solid rgba(green);
+    background-color: rgba(240, 248, 255, 0.128);
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 10%;
+   width: 100%;
+   height: 100%;
+   font-size: 1.2rem;
+}
+.world{
+    margin-right: 10%;
+    color: aliceblue;
+    font-weight: bold;
+}
+.date{
+    margin-right: 10%;
+    color: aliceblue;
+    font-weight: bold;
+}
+.cities{
+    color: rgb(253, 240, 255);
+    font: bold;
+    font-weight: bold;
+}
+.mid2{
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 10%;
+
+}
+.set{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    font-size: 1rem;
+    color: aliceblue;
+    border-radius: 1rem;
+    padding: 1em;
+    margin-left: 5%;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(240, 248, 255, 0.242);
+}
+
+h2,p{
+    margin-top: 1em;
+}
+.text{
+    color: rgb(235, 40, 154);
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+.box{
+    background-color: rgba(236, 160, 237, 0.299);
+    border-radius: 1em;
+    padding: 1em;
+    backdrop-filter: blur(10px);
+    transition: 100ms ease;
+}
+.box1{
+   background-color: rgba(236, 160, 237, 0.299);
+    border-radius: 1em;
+    padding: 1em;
+    backdrop-filter: blur(10px);   
+}
+.box2{
+   background-color: rgba(236, 160, 237, 0.299);
+    border-radius: 1em;
+    padding: 1em;
+    backdrop-filter: blur(10px);   
+}
+.box3{
+   background-color: rgba(236, 160, 237, 0.299);
+    border-radius: 1em;
+    padding: 1em;
+    backdrop-filter: blur(10px);   
+}
+.para
+{
+    color: aliceblue;
+
+}
+.text1{
+     color: rgb(235, 40, 154);
+    text-shadow: 2px 2px 2px black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2em;
+    margin-top: 10%;
+}
+.img_text{
+    display: flex;
+    align-items: center;
+    gap: 2em;
+}
+.mid3{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.phone{
+    width: 100%;
+    height: 100%;
+    border-radius: 1em;
+}
+.mode{
+    color: rgba(250, 9, 138, 0.904);
+    text-shadow: 2px 2px 2px black;
+}
+.mid4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin: 10%;
+    gap: 1em;
+}
+.map{
+    border-radius: 1em;
+}
+.mid5{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    margin: 5%;
+    gap: 1em;
+}
+.map{
+    border-radius: 1em;
+}
+.get{
+   color: rgb(235, 40, 154);
+    text-shadow: 2px 2px 2px black;
+    font-size: 2em;
+}
+
+.get1{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
